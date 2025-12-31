@@ -6,7 +6,7 @@ import WishCard from '@/components/WishCard';
 const wishes = [
   {
     title: "Eternal Love",
-    message: "In 2025, may our love grow deeper with each passing day. Every sunrise brings new reasons to cherish you, and every sunset reminds me how blessed I am to have you, Meg.",
+    message: "In 2026, may our love grow deeper with each passing day. Every sunrise brings new reasons to cherish you, and every sunset reminds me how blessed I am to have you, Meg.",
     icon: <Heart className="text-romantic-red" fill="currentColor" />,
   },
   {
@@ -31,7 +31,7 @@ const wishes = [
   },
   {
     title: "Abundant Blessings",
-    message: "May 2025 shower you with unexpected gifts of joy, success, and wonderful surprises. You deserve all the beautiful things life has to offer, my love.",
+    message: "May 2026 shower you with unexpected gifts of joy, success, and wonderful surprises. You deserve all the beautiful things life has to offer, my love.",
     icon: <Gift className="text-romantic-red-light" />,
   },
   {
@@ -63,7 +63,7 @@ const Wishes = () => {
             To My Dearest Meg
           </p>
           <p className="font-elegant text-lg text-muted-foreground max-w-2xl mx-auto">
-            As we welcome 2025, here are my wishes from the deepest chambers of my heart, 
+            As we welcome 2026, here are my wishes from the deepest chambers of my heart, 
             each one wrapped in love and tied with golden ribbons of hope.
           </p>
         </div>
@@ -93,7 +93,7 @@ const Wishes = () => {
             <Heart className="w-12 h-12 mx-auto text-romantic-red mb-6 animate-pulse" fill="currentColor" />
             <blockquote className="font-elegant text-xl sm:text-2xl text-foreground italic leading-relaxed mb-6">
               "Meg, you are not just my love, but my entire universe. Every wish I make is for your happiness, 
-              every prayer I whisper is for your wellbeing. In 2025 and every year that follows, 
+              every prayer I whisper is for your wellbeing. In 2026 and every year that follows, 
               know that my heart beats only for you."
             </blockquote>
             <p className="font-script text-3xl text-gold">
