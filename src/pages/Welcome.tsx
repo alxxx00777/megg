@@ -49,7 +49,7 @@ const Welcome = () => {
           <h2 
             className={`font-display text-4xl sm:text-5xl md:text-6xl text-foreground mb-8 transition-all duration-1000 delay-500 ${showContent ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}
           >
-            2025
+            2026
           </h2>
 
           {/* Photo frame */}
