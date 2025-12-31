@@ -19,7 +19,7 @@ const Countdown = () => {
       const newYear = new Date(now.getFullYear() + 1, 0, 1);
       
       // If it's already 2025 or later
-      if (now.getFullYear() >= 2025) {
+      if (now.getFullYear() >= 2026) {
         setIsNewYear(true);
         return;
       }
@@ -208,7 +208,7 @@ const Countdown = () => {
             <Star className="w-4 h-4 text-gold" />
           </div>
           <p className="font-script text-2xl text-gold">
-            Happy New Year 2025, My Dearest Meg ♥
+            Happy New Year 2026, My Dearest Meg ♥
           </p>
         </div>
       </footer>
