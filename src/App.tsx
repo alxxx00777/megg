@@ -7,6 +7,7 @@ import Welcome from "./pages/Welcome";
 import Wishes from "./pages/Wishes";
 import Gallery from "./pages/Gallery";
 import Countdown from "./pages/Countdown";
+import MusicPage from "./pages/MusicPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -22,6 +23,7 @@ const App = () => (
           <Route path="/wishes" element={<Wishes />} />
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/countdown" element={<Countdown />} />
+          <Route path="/music" element={<MusicPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

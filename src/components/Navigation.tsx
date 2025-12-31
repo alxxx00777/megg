@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Heart, Sparkles, Gift, Clock } from 'lucide-react';
+import { Menu, X, Heart, Sparkles, Gift, Clock, Music } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
 const navItems = [
@@ -8,6 +8,7 @@ const navItems = [
   { path: '/wishes', label: 'Wishes', icon: Sparkles },
   { path: '/gallery', label: 'Gallery', icon: Gift },
   { path: '/countdown', label: 'Celebrate', icon: Clock },
+  { path: '/music', label: 'Our Song', icon: Music },
 ];
 
 export const Navigation = () => {
