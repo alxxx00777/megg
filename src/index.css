@@ -2,95 +2,80 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Romantic Red & Gold Theme for Meg's New Year Website */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Deep romantic night sky background */
+    --background: 240 20% 8%;
+    --foreground: 45 100% 96%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    /* Rich romantic red for cards */
+    --card: 0 60% 12%;
+    --card-foreground: 45 100% 96%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 240 20% 10%;
+    --popover-foreground: 45 100% 96%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Luxurious gold as primary */
+    --primary: 45 90% 55%;
+    --primary-foreground: 240 20% 8%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Deep romantic red as secondary */
+    --secondary: 0 75% 45%;
+    --secondary-foreground: 45 100% 96%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted deep purple-red */
+    --muted: 340 30% 20%;
+    --muted-foreground: 45 50% 75%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Rose gold accent */
+    --accent: 15 70% 60%;
+    --accent-foreground: 240 20% 8%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 45 50% 25%;
+    --input: 45 30% 20%;
+    --ring: 45 90% 55%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
-    --sidebar-background: 0 0% 98%;
-
-    --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    /* Custom romantic colors */
+    --gold: 45 90% 55%;
+    --gold-light: 45 100% 75%;
+    --gold-dark: 40 80% 40%;
+    --romantic-red: 0 75% 45%;
+    --romantic-red-light: 0 80% 60%;
+    --romantic-red-dark: 0 70% 30%;
+    --rose: 340 70% 55%;
+    --rose-light: 340 80% 75%;
+    --night-sky: 240 30% 10%;
+    --night-sky-light: 240 25% 15%;
+    --cream: 45 100% 96%;
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-
+    --background: 240 20% 8%;
+    --foreground: 45 100% 96%;
+    --card: 0 60% 12%;
+    --card-foreground: 45 100% 96%;
+    --popover: 240 20% 10%;
+    --popover-foreground: 45 100% 96%;
+    --primary: 45 90% 55%;
+    --primary-foreground: 240 20% 8%;
+    --secondary: 0 75% 45%;
+    --secondary-foreground: 45 100% 96%;
+    --muted: 340 30% 20%;
+    --muted-foreground: 45 50% 75%;
+    --accent: 15 70% 60%;
+    --accent-foreground: 240 20% 8%;
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 210 40% 98%;
-
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --border: 45 50% 25%;
+    --input: 45 30% 20%;
+    --ring: 45 90% 55%;
   }
 }
 
@@ -101,5 +86,213 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'Cormorant Garamond', serif;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: 'Playfair Display', serif;
+  }
+
+  .font-script {
+    font-family: 'Great Vibes', cursive;
+  }
+
+  .font-elegant {
+    font-family: 'Cormorant Garamond', serif;
+  }
+
+  /* Gold text gradient */
+  .text-gold-gradient {
+    background: linear-gradient(
+      135deg,
+      hsl(var(--gold-light)) 0%,
+      hsl(var(--gold)) 50%,
+      hsl(var(--gold-dark)) 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+
+  /* Romantic gradient backgrounds */
+  .bg-romantic-gradient {
+    background: linear-gradient(
+      180deg,
+      hsl(var(--night-sky)) 0%,
+      hsl(var(--romantic-red-dark)) 50%,
+      hsl(var(--night-sky)) 100%
+    );
+  }
+
+  .bg-night-gradient {
+    background: linear-gradient(
+      180deg,
+      hsl(240 30% 5%) 0%,
+      hsl(var(--night-sky)) 30%,
+      hsl(var(--night-sky-light)) 70%,
+      hsl(240 30% 5%) 100%
+    );
+  }
+
+  /* Glow effects */
+  .glow-gold {
+    box-shadow: 0 0 20px hsl(var(--gold) / 0.3),
+                0 0 40px hsl(var(--gold) / 0.2),
+                0 0 60px hsl(var(--gold) / 0.1);
+  }
+
+  .glow-red {
+    box-shadow: 0 0 20px hsl(var(--romantic-red) / 0.3),
+                0 0 40px hsl(var(--romantic-red) / 0.2);
+  }
+
+  .text-glow-gold {
+    text-shadow: 0 0 10px hsl(var(--gold) / 0.5),
+                 0 0 20px hsl(var(--gold) / 0.3),
+                 0 0 30px hsl(var(--gold) / 0.2);
+  }
+
+  /* Decorative borders */
+  .border-gold-gradient {
+    border-image: linear-gradient(
+      135deg,
+      hsl(var(--gold-light)),
+      hsl(var(--gold)),
+      hsl(var(--gold-dark))
+    ) 1;
+  }
+
+  /* Animation utilities */
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-twinkle {
+    animation: twinkle 2s ease-in-out infinite;
+  }
+
+  .animate-glow-pulse {
+    animation: glow-pulse 3s ease-in-out infinite;
+  }
+
+  .animate-fade-in-up {
+    animation: fade-in-up 1s ease-out forwards;
+  }
+
+  .animate-scale-in {
+    animation: scale-in 0.6s ease-out forwards;
+  }
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes twinkle {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+}
+
+@keyframes glow-pulse {
+  0%, 100% {
+    box-shadow: 0 0 20px hsl(var(--gold) / 0.3),
+                0 0 40px hsl(var(--gold) / 0.2);
+  }
+  50% {
+    box-shadow: 0 0 30px hsl(var(--gold) / 0.5),
+                0 0 60px hsl(var(--gold) / 0.3),
+                0 0 80px hsl(var(--gold) / 0.2);
+  }
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Firework explosion keyframes */
+@keyframes firework-rise {
+  0% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-100vh) scale(0.5);
+  }
+}
+
+@keyframes firework-explode {
+  0% {
+    opacity: 1;
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
+}
+
+@keyframes sparkle {
+  0%, 100% {
+    opacity: 0;
+    transform: scale(0);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: hsl(var(--night-sky));
+}
+
+::-webkit-scrollbar-thumb {
+  background: hsl(var(--gold) / 0.5);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: hsl(var(--gold) / 0.7);
 }
