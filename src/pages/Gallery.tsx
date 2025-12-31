@@ -147,7 +147,7 @@ const Gallery = () => {
                 You are my wish, my hope, my sweetest dream.
               </p>
               <p className="opacity-0 animate-fade-in" style={{ animationDelay: '1.6s', animationFillMode: 'forwards' }}>
-                In 2025 and years beyond this night,
+                In 2026 and years beyond this night,
               </p>
               <p className="opacity-0 animate-fade-in" style={{ animationDelay: '1.8s', animationFillMode: 'forwards' }}>
                 I'll love you, Meg, with all my heart and might.
